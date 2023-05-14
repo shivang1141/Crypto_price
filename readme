@@ -1,0 +1,16 @@
+Crypto Market Data Viewer
+
+The project is a Crypto Price Tracker web application, which displays a table of cryptocurrency data, including rank, name, symbol, price in USD, and the 24-hour percentage change. The application allows users to:
+
+1. Search for specific cryptocurrencies by name using the search input.
+2. Add or remove cryptocurrencies from a favorites list by clicking on the star icon in the table.
+3. Display a tooltip with additional information about a cryptocurrency when hovering over its name in the table.
+4. Navigate through different pages of cryptocurrency data using the previous and next buttons.
+5. Show a list of favorite cryptocurrencies by clicking on the "Show Favorites" button.
+6. Access a news feed page by clicking on the "News feed" button.
+7. Toggle dark mode on and off using a switch in the upper right corner of the page.
+
+The web application fetches cryptocurrency data from the CoinCap API and utilizes JavaScript to update the table with the fetched data. It also stores the user's favorite cryptocurrencies using the browser's localStorage feature.
+
+API
+The application uses the CoinCap API to fetch real-time cryptocurrency data. You can find more information about the API and its usage here.

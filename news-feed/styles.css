@@ -1,0 +1,41 @@
+/* styles.css */
+body {
+    background-color: #333;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#news-container {
+    background-color: #444;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #777;
+    text-align: center;
+    position: relative;
+}
+
+#news-letter-btn {
+    
+    background-color: #87CEEB;
+    border: none;
+    border-radius: 20px;
+    padding: 1rem 10rem;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #FFD700;
+    cursor: pointer;
+    box-shadow: 0 0 10px #fff;
+    position:absolute ;
+    bottom: -60px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}

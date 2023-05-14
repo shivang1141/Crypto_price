@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Crypto Price Tracker</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+	<div class="container">
+	<label class="switch" for="darkModeToggle">
+	  <input type="checkbox" id="darkModeToggle" />
+	  <span class="slider round"></span>
+	</label>
+		<h1>Crypto Price Tracker</h1>
+		<input type="text" id="search" placeholder="Search by name">
+		<button class="favorite-button" onclick="showFavorites()">Show Favorites</button>
+		<a href="news-feed/index.html" class="favorite-button">News feed</a>
+		
+		<table id="crypto-table">
+			<thead>
+				<tr>
+					<th></th>
+					<th>Rank</th>
+					<th>Name</th>
+					<th>Symbol</th>
+					<th>Price (USD)</th>
+					<th>24Hr Change (%)</th>
+				</tr>
+			</thead>
+			<tbody>
+			</tbody>
+		</table>
+		<div id="tooltip" class="tooltip">
+			<div class="tooltip-inner"></div>
+		</div>
+		<div class="navigation">
+			<button class="arrow-button" id="previous" onclick="previousPage()">←</button>
+			<button class="arrow-button" id="next" onclick="nextPage()">→</button>
+		</div>
+		<div class="pagination">
+			<span>Page: </span>
+			<span id="current-page">1</span>
+		</div>
+	</div>
+	<script src="script.js"></script>
+</body>
+
+</html>
